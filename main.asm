@@ -35,7 +35,7 @@ main:
     mov cx, 80*25      
     int 0x10
 
-    ; Виведення тексту
+  
     mov ah, 0x0E       
     mov si, msg        
 print_msg_loop:
